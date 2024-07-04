@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="product-details">
+        <div class="product-images">
+            <img style="width: 600px; margin-left: 50px; margin-top: 30px;" src="images/Rectangle 4.png" alt="Main Product Image" class="main-image">
+            <div class="thumbnails">
+                <img style="width: 120px; margin-left: 80px;" src="images/Rectangle 6.png" alt="Thumbnail 1">
+                <img style="width: 120px;" src="images/Rectangle 5.png" alt="Thumbnail 2">
+                <img style="width: 120px;" src="images/Rectangle 7.png" alt="Thumbnail 3">
+                <img style="width: 120px;" src="images/Rectangle 8.png" alt="Thumbnail 4">
+            </div>
+        </div>
+        <div class="product-info">
+            <h2 class="vendor" style="color: lightgray;">Marmeto</h2>
+            <h1 class="title" style="font-size: 25px;">Embrace Sideboard</h1>
+            <hr style="color: gray;">
+            <div class="price-section">
+                <span class="price" style="color: #3a4980; font-weight: bold; font-size: 45px;">$12999.00</span>
+                <span class="compare-price">$19999.00</span>
+                <span class="discount">35% Off</span>
+        
+            </div>
+            <hr style="margin-top: 20px;">
+            <div class="color-selector" style="margin-top: 30px;">
+                <label style="color: lightgray;">Choose a Color:</label>
+                <div class="colors">
+                    <div class="color beige"></div>
+                    <div class="color green"></div>
+                    <div class="color purpel"></div>
+                    <div class="color pink"></div>
+                </div>
+                <hr style="margin-top: 30px;">
+            </div>
+            <div class="size-selector">
+                <label style="color: lightgray;" >Choose a Size:</label>
+                <div class="sizes" style="margin-top: 15px;">
+                    <button class="size" style="color: #3a4980;"><input type="radio" value="Submit" style="margin-left: -16px; color: blue;">Small</button>
+                    <button class="size" style="background-color: lightgray;"><input type="radio" value="Submit" style="margin-left: -16px; color: blue;">Medium</button>
+                    <button class="size" style="background-color: lightgray;"><input type="radio" value="Submit" style="margin-left: -16px; color: blue;">Large</button>
+                    <button class="size" style="height: 50px; background-color: lightgray;"><input type="radio" value="Submit" style="margin-left: -16px; color: blue;">Extra Large</button>
+                    <button class="size" style="background-color: lightgray;"><input type="radio" value="Submit" style="margin-left: -16px; color: blue;">XXL</button>
+                </div>
+            </div>
+            <div class="button-container">
+                <div class="quantity-selector" style="background-color: lightgray;">
+                    <button id="decrease-quantity" style="color: #3a4980; font-weight: bold;">-</button>
+                    <input style="color: #3a4980; font-weight: bold;" type="number" id="quantity" value="1">
+                    <button id="increase-quantity" style="color: #3a4980; font-weight: bold;">+</button>
+                </div>
+                <button id="add-to-cart" class="add-to-cart-btn">
+                    <img src="images/shopping-bag (1).png" alt="Cart Icon">
+                    Add To Cart
+                </button>
+            </div><hr>
+            <p class="description">
+                The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.
+            </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
